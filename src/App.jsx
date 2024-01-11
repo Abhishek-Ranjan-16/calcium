@@ -37,7 +37,7 @@ const App = () => {
   // used eval overhere, my method
   return (
     <div className="ranjan">
-      <Girl></Girl>
+      <Girl />
       <div className={styles.goBack}>
        <a href="https://assassinofsilchar.github.io/Travel-Buddy/" > Go Back to Homepage</a>
       </div>
