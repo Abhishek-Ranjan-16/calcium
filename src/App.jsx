@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./App.module.css";
-import Display from "./components/display";
+import Display from "./components/Display";
 import ButtonsContainer from "./components/ButtonsContainer"; 
 import Girl from "./components/Girl";
 const App = () => {
