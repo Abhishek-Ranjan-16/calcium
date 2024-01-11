@@ -1,5 +1,5 @@
 import React from "react";
-import videoBg from "../assets/bgVId.mp4";
+import videoBg from "../assets/bgVid.mp4";
 const Girl = () => {
   return (
     // <div className="jagmag">
