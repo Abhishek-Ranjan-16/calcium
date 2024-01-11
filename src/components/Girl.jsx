@@ -1,9 +1,12 @@
 import React from "react";
 import videoBg from "../assets/bgVid.mp4";
+import thatsgif from "../assets/thats.gif"
 const Girl = () => {
   return (
-    // <div className="jagmag">
-      <video src={videoBg} autoPlay loop muted className="Girly"/>
+    // <div className="jagmag"> 
+    <>
+    <img src={thatsgif} alt="" />
+    </>
     // </div>
   );
 };
