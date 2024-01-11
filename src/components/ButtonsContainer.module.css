@@ -1,0 +1,28 @@
+
+.buttonsContainer{
+ background-color: rgba(186, 186, 186, 0.2);
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  display: flex; 
+  justify-content: center;
+  align-content: flex-start; 
+  gap: 0.3em;
+  border-radius: 4px;
+  flex-wrap: wrap; 
+}
+
+.btn{
+  margin-top: 1vh;
+  background:linear-gradient(white,grey);
+  width: 30%;
+  height: 13%;
+  border-radius: 20px;
+  font-size: 2em;
+  position: relative;
+  z-index: 10;
+}
+.btn :active{
+  background-color: red;
+  opacity: 0;
+}

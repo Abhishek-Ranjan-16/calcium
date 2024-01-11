@@ -1,0 +1,43 @@
+/* ls -a ....to check whether git is present or not in a folder */
+
+.calculator {
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 5px solid grey;
+  border-radius: 5px;
+  width:500px;
+  height: 80vh;
+  margin: auto;
+  margin-top: 40px;
+  position: fixed;
+  top: 3em;
+  right: 5em; 
+  opacity: 0.9;
+}
+video {
+  display: block;
+  margin: auto; 
+  translate: -60% -50%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+body {
+  background-color: black;
+}
+a{
+  text-decoration: none;
+}
+a:visited{
+  color: white;
+}
+.goBack{
+  position: fixed;
+  z-index: 10;
+  color: white;
+  font-size: 40px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  left:20px;
+  top: 20px; 
+}
