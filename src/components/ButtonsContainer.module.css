@@ -1,24 +1,23 @@
-
-.buttonsContainer{
- background-color: rgba(186, 186, 186, 0.1);
+.buttonsContainer {
+  background-color: rgb(142, 188, 241);
   width: 80%;
   height: 80%;
   margin: auto;
-  display: flex; 
+  display: flex;
   justify-content: center;
-  align-content: flex-start; 
+  align-content: flex-start;
   gap: 0.3em;
   border-radius: 4px;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
-.btn{
+.btn {
   margin-top: 1vh;
-  background:linear-gradient(white,grey);
+  background: linear-gradient(40deg,white, grey, white, grey, white);
   width: 30%;
   height: 13%;
   border-radius: 5px;
   font-size: 2em;
   position: relative;
   z-index: 10;
-} 
+}

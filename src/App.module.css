@@ -1,23 +1,23 @@
 /* ls -a ....to check whether git is present or not in a folder */
 
 .calculator {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 1);
   border: 5px solid grey;
-  border-radius:35px;
-  width:500px;
+  border-radius: 35px;
+  width: 500px;
   height: 80vh;
   margin: auto;
   margin-top: 40px;
   position: fixed;
-  top: 5.5em;
-  right: 5em; 
+  top: 3em;
+  right: 30em;
   opacity: 0.8;
 }
-img { 
+img {
   height: 100vh;
   width: 100%;
   display: block;
-  margin: auto;  
+  margin: auto;
 }
 * {
   margin: 0;
@@ -27,18 +27,24 @@ img {
 body {
   background-color: black;
 }
-a{
+a {
   text-decoration: none;
-}
-a:visited{
   color: white;
 }
-.goBack{
+a:visited {
+  color: white;
+}
+.goBack {
+  background-color: black;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  padding: 10px 20px;
   position: fixed;
   z-index: 10;
   color: white;
-  font-size: 70px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  left:60px;
-  top: 60px; 
+  font-size: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  left: 60px;
+  top: 60px;
 }

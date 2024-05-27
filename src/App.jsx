@@ -39,7 +39,7 @@ const App = () => {
     <div className="ranjan">
       <Girl />
       <div className={styles.goBack}>
-       <a href="https://assassinofsilchar.github.io/Travel-Buddy/" > Go Back to Homepage</a>
+       <a href="https://github.com/Abhishek-Ranjan-16" > Go Back to Github</a>
       </div>
       <div className={` ${styles['calculator']} `}>
         <Display  inp={input}></Display>

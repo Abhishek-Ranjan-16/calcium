@@ -1,5 +1,4 @@
-import React from "react";
-import videoBg from "../assets/bgVid.mp4";
+import React from "react"; 
 import thatsgif from "../assets/thats.gif"
 const Girl = () => {
   return (
